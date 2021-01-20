@@ -3,7 +3,7 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
         <router-link to="/" class="navbar-brand">
-          <div><i>Application</i></div>
+          <div>Converter</div>
         </router-link>
         <button
           class="navbar-toggler"
@@ -24,14 +24,14 @@
         <div class="row">
           <div class="col-md-6">
             <a href="#" class="text-light"
-              ><i>{{ currentYear }} © </i></a
+              >{{ currentYear }} © </a
             >|
             <a href="#" class="text-light"
-              ><i>Created By Tumelo Mokhwathi</i></a
+              >Software Development</a
             >
             |
             <a href="#" class="text-light"
-              ><i>{{ version }}</i></a
+              >{{ version }}</a
             >
           </div>
         </div>
